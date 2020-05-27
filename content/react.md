@@ -327,7 +327,7 @@ Using React Router is also straightforward. Once you `meteor npm install --save 
 ```js
 import React from 'react';
 import { Router, Route, Switch } from 'react-router';
-import createBrowserHistory from 'history/createBrowserHistory';
+import {createBrowserHistory} from 'history';
 
 // route components
 import AppContainer from '../../ui/containers/AppContainer.js';
